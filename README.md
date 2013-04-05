@@ -1,30 +1,31 @@
 Fill Zone Solver
+================
 
-Implementación de un motor de inferencias para resolver el juego Fill Zone, desarrollado junto a Francisco Pagliaricci y Jorge Mozzino para la cátedra de Sistemas de Inteligencia Artificial del ITBA.
+Implementaciï¿½n de un motor de inferencias para resolver el juego Fill Zone, desarrollado junto a Francisco Pagliaricci y Jorge Mozzino para la cï¿½tedra de Sistemas de Inteligencia Artificial del ITBA.
 
-Para más información sobre la implementación de este proyecto, lea el informe en la carpeta /doc.
+Para mï¿½s informaciï¿½n sobre la implementaciï¿½n de este proyecto, lea el informe en la carpeta /doc.
 
-------------------------------------------------------------------------------
 
-Ejecución
+Ejecuciï¿½n
+-----------
 
-Para correr el programa, ejecutar, por línea de comandos
+Para correr el programa, ejecutar, por lï¿½nea de comandos
 		
 			java - jar FillZone.jar
 
-Los argumentos válidos son:
+Los argumentos vï¿½lidos son:
 
--M (dfs|bfs|id|astar|greedy): Indica el tipo de búsqueda a realizar. Parámetro obligatorio.
+-M (dfs|bfs|id|astar|greedy): Indica el tipo de bï¿½squeda a realizar. Parï¿½metro obligatorio.
 
--m cantMoves: Indica la cantidad máxima de movimientos en los que se tiene que resolver
+-m cantMoves: Indica la cantidad mï¿½xima de movimientos en los que se tiene que resolver
  el tablero. Opcional, el default es 30.
 
--d dimension: Indica la dimensión del tablero cuadrado. Opcional, el default e 14.
+-d dimension: Indica la dimensiï¿½n del tablero cuadrado. Opcional, el default e 14.
 
--h (1|2|3|4): Indica la heurística a ser utilizada.
-		1 es la heurística de celdas dominadas.
-		2 es la heurística de las islas.
-		3 es la heurística de acercarse a las esquinas.
-		4 es la heurística de los k-vecinos.
+-h (1|2|3|4): Indica la heurï¿½stica a ser utilizada.
+		1 es la heurï¿½stica de celdas dominadas.
+		2 es la heurï¿½stica de las islas.
+		3 es la heurï¿½stica de acercarse a las esquinas.
+		4 es la heurï¿½stica de los k-vecinos.
 
-NOTA: El archivo FillZoneHValue.jar imprime además el valor heurístico de cada tablero para cada heurísticaNOTA: El archivo FillZoneHValue.jar imprime además el valor heurístico de cada tablero para cada heurística.
+NOTA: El archivo FillZoneHValue.jar imprime ademï¿½s el valor heurï¿½stico de cada tablero para cada heurï¿½sticaNOTA: El archivo FillZoneHValue.jar imprime ademï¿½s el valor heurï¿½stico de cada tablero para cada heurï¿½stica.
